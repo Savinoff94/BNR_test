@@ -115,7 +115,7 @@ function calculateTotalIngredients(orders) {
         coffeeBeans: totalCoffeeBeans
     };
 }
-
+// orders ane not changed after processing
 var orders = [
     { type: "espresso", quantity: 2 },
     { type: "latte", quantity: 1 },
