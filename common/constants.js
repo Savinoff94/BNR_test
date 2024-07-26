@@ -1,0 +1,24 @@
+const DRINKS = Object.freeze({
+    ESPRESSO: 'espresso',
+    LATTE: 'latte',
+    CAPPUCCINO: 'cappuccino',
+})
+
+const INGREDIENTS = Object.freeze({
+    WATER: 'water',
+    MILK: 'milk',
+    COFFEE_BEANS: 'coffeeBeans',
+})
+
+const MENU = Object.freeze({
+    [DRINKS.ESPRESSO]: {[INGREDIENTS.WATER]: 50, [INGREDIENTS.MILK]: 0, [INGREDIENTS.COFFEE_BEANS]: 18},
+    [DRINKS.LATTE]: {[INGREDIENTS.WATER]: 30, [INGREDIENTS.MILK]: 150, [INGREDIENTS.COFFEE_BEANS]: 18},
+    [DRINKS.CAPPUCCINO]: {[INGREDIENTS.WATER]: 10, [INGREDIENTS.MILK]: 100, [INGREDIENTS.COFFEE_BEANS]: 18},
+})
+
+const COFFEE_MACHINE_CLASS_NAME = 'CoffeeMachine'
+const ORDERS_LIST_CLASS_NAME = 'OrdersList'
+
+module.exports = {
+    MENU, DRINKS, INGREDIENTS, COFFEE_MACHINE_CLASS_NAME, ORDERS_LIST_CLASS_NAME
+}

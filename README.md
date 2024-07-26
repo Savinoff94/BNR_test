@@ -1,1 +1,3 @@
 # BNR_test
+TASK:
+You are given a javascript file which implements a coffee machine. The code is ugly and bad, and has some bugs. First write up what you think is wrong with the code. Then fix the bugs. Then refactor it: make sure to change the informal print debugging at the end of the script into actual tests first, and then improve the code to your liking, with an additional explanation about why you chose the particular way to write it (functional, OOP, what-have-you). The file is attached.
