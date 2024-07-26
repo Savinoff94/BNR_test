@@ -1,4 +1,4 @@
-const {MENU, DRINKS, INGREDIENTS, COFFEE_MACHINE_CLASS_NAME, ORDERS_LIST_CLASS_NAME} = require('./constants');
+const {DRINKS, INGREDIENTS} = require('./constants');
 
 const orders = [
     { drinkName: DRINKS.ESPRESSO, quantity: 2 },
